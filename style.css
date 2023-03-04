@@ -1,12 +1,7 @@
-*{
+header{
     font-family:'Montserrat', sans-serif;;
 }
 
-/* .indice{
-    border-bottom: 3px solid transparent;
-    transition: all 1s;
+main{
+    font-family: 'Montserrat', sans-serif;
 }
-
-.indice:hover{
-    border-color: blue;
-} */
