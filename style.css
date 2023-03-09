@@ -1,7 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
 header{
-    font-family:'Montserrat', sans-serif;;
+    font-family:'Montserrat', sans-serif;
 }
 
 main{
     font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --about-color: rgb(65, 136, 230);
+    --poppins: 'Poppins', sans-serif;
+}       
+
+.about, div > section {
+    background-color: var(--about-color);
+}
+
+.about > section > div > h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2{
+    text-shadow: 4px 4px 2px rgba(130,98,210,0.77);
+}
+
+.font-poppins{
+    font-family: var(--poppins);
 }

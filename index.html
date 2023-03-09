@@ -16,7 +16,7 @@
     <title>Sebastian Ocando</title>
 </head>
 <body class="bg-teal-50">
-    <header>
+    <header class="fixed w-screen top-0 z-[120] bg-indigo-100 opacity-70">
         <nav class="md:p-7 shadow md:flex md:items-center md:justify-center" id="menu">
             <div class="flex justify-between items-center">
                 <span class="text-2xl cursor-pointer">
@@ -29,7 +29,7 @@
                 </span>
                 <ul class="flex max-md:h-[95vh] max-md:my-10 items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto font-semibold max-md:flex-col justify-center gap-9 md:opacity-100 opacity-0 top-[-400px] transition-all  ease-in duration-500">
                     <li class="my-6 md:my-0 max-md:hover:pb-1 hover:border-b-4 hover:border-sky-600 transition-all duration-400">
-                        <a href="#" class="text-xl">Sobre mi</a>
+                        <a href="#sobre-mi" class="text-xl  transition-all duration-300">Sobre mi</a>
                     </li>
                     <li class="my-6 md:my-0 hover:pb-1 hover:border-b-4 hover:border-sky-600 transition-all duration-400">
                         <a href="#" class="text-xl">Proyectos</a>
@@ -44,7 +44,7 @@
             </div>
         </nav>
     </header>
-    <main class="transition-all ease-in duration-400">
+    <main class="container-fluid transition-all ease-in duration-400">
         <div class="w-100 flex justify-center">
             <article class="flex items-center flex-col py-40 w-1/2 justify-center">
                 <div>
@@ -71,15 +71,22 @@
                 </div>
             </article>
         </div>
-        <article>
-            <!-- <div class="">
-                <h2>Sobre Mi</h2>
-                <p>Un joven apasionado por tecnologia y la programación. He trabajado con tecnologias tanto Frontend como Backend.
-                    Me caracterizo por ser una persona perseverante, manteniendome en constante aprendizaje, dedicado a los detalles.
-                    Actualmente me estoy especializando en Frontend Developer con el propósito de darle mayor valor a mis proyectos. </p>
-            </div>  -->
+        <article class="about mt-16 max-sm:h-[450px]" id="sobre-mi">
+            <div  class=" flex justify-center max-h-[300px] font-poppins">
+                <section  class="flex justify-center my-20 p-10 shadow-2xl w-fit-content relative top-[-200px] z-[100] mx-8 max-md:flex-wrap max-w-[900px] h-[320px] max-sm:h-[500px] max-sm:py-5 max-sm:px-2">
+                    <div class="w-10/12 pt-2 text-neutral-900">
+                        <h2 class="font-bold text-3xl px-2 pb-2 text-gray-200">Sobre mi</h2>
+                        <p class="px-2 py-2 text-md text-gray-200">Un joven apasionado por tecnologia y la programación. He trabajado con tecnologias tanto Frontend como Backend.
+                            Me caracterizo por ser una persona perseverante, manteniendome en constante aprendizaje, dedicado a los detalles.
+                            Actualmente me estoy especializando en Frontend Developer con el propósito de darle mayor valor a mis proyectos. </p>
+                    </div>
+                    <div class="w-4/12 p-7 min-w-[250px] max-md:hidden">
+                        <img src="./assets/computadora.png" alt="computer" class="min-w-[100%]">
+                    </div> 
+                </section>
+            </div>
         </article>
-        <article></article>
+        <article class="text-3xl"></article>
         <article></article>
     </main>
 
