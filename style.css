@@ -53,3 +53,29 @@ h2 {
 .box-shadow {
     box-shadow: 12px 13px 9px -1px rgba(0,0,0,0.30);
 }
+
+.restaurant {
+    background: url('./assets/images/TP-final.PNG') center no-repeat;
+    background-size: cover;
+}
+
+.portfolio {
+    background: url('./assets/images/Portfolio.PNG') center no-repeat;
+    background-size: cover;
+}
+
+.ticketing {
+    background: url('./assets/images/TP-inicial.PNG') center no-repeat;
+    background-size: cover;
+}
+
+.crypto {
+    background: url('./assets/images/crypto.PNG') center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1400px) {
+    .group {
+        grid-auto-flow: column;
+    }
+}
